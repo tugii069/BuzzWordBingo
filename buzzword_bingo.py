@@ -20,7 +20,7 @@ def display_card(card):
         print("-" * (len(row) * 4))
 
 def check_winner(card):
-    # Check rows
+    # Check rowss
     for row in card:
         if all(cell == 'X' for cell in row):
             return True
