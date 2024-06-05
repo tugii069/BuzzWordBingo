@@ -25,6 +25,7 @@ def check_winner(card):
         if all(cell == 'X' for cell in row):
             return True
     # Check columns
+    #Check
     for col in range(len(card[0])):
         if all(row[col] == 'X' for row in card):
             return True
